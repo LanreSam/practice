@@ -1,5 +1,7 @@
 body{
     background-color: blueviolet;
+    margin: 0;
+    padding: 0;
 }
 
 h1{
@@ -8,8 +10,27 @@ h1{
     color: whitesmoke;
 }
 
-p{
+#motto{
     letter-spacing: 0.5rem;
     text-align: center;
     color: whitesmoke;
+}
+.bg{
+    background-color: white;
+    padding: 100px;
+    margin-top: 70px;
+}
+a{
+    background-color: purple;
+    color: whitesmoke;
+    padding: 15px;
+    display: inline-block;
+    margin-top: 25px;
+    text-decoration: none;
+}
+a:hover{
+    border: 1px solid purple;
+    border-radius: 5px;
+    background-color: transparent;
+    color: black;
 }
