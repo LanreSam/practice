@@ -7,3 +7,9 @@ h1{
     font-size: 3.5rem;
     color: whitesmoke;
 }
+
+p{
+    letter-spacing: 0.5rem;
+    text-align: center;
+    color: whitesmoke;
+}
