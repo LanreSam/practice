@@ -1,0 +1,55 @@
+header {
+    margin: auto;
+    padding: 8px;
+    background-color: #CBCBCB;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 40px;
+    font-family: Arial, Helvetica;
+}
+
+.container {
+    width: 50%;
+    background-color: #CBCBCB;
+    margin: auto;
+    margin-top: 80px;
+    padding: 40px;
+}
+
+.form-group {
+    padding-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input {
+    padding: 5px;
+    width: 100%;
+}
+
+.btn {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.items {
+    list-style: none;
+    width: 60%;
+    margin: auto;
+}
+
+.item {
+    
+    background-color: #CBCBCB;
+    
+    margin: 10px 0px 0px -20px;
+    padding: 10px;
+}
