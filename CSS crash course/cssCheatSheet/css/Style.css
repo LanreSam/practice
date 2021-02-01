@@ -1,0 +1,119 @@
+body{
+    background-color: #1D2E30;
+    color: #DCDCDC;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.4em;
+    margin: 0;
+}
+
+header{
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    min-height: auto;
+    position: fixed;
+    top: 20px;
+}
+
+header a{
+    text-decoration: none;
+    color: #DCDCDC;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+header a:hover{
+    color: white;
+    font-weight: bold;
+}
+
+header h1{
+    font-size: 55px;
+    float: left;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0px 20px 0px 20px;
+    margin-top: 35px;
+}
+
+header .highlight, .current a{
+    color: goldenrod;
+}
+
+nav ul{
+    list-style: none;
+    color: #DCDCDC;
+    margin-top: 0px;
+    padding: 0px;
+    float: right;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.content{
+    width: 80%;
+    background-color: #131E20;
+    border-top: 3px white solid;
+    border-bottom: 3px white solid;
+    padding: 30px;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.content2{
+    width: 80%;
+    background-color: #1D2627;
+    padding: 30px;
+    margin: auto;
+    border: 2px #131E20 solid;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.my-form{
+    padding: 40px;   
+}
+
+.my-form .form-group{
+    padding: 20px 0px 20px 0px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.Form
+{
+    width: 50%;
+    margin: auto;
+    background-color: #1D2627;
+}
+
+.my-form input[type = "text"], .my-form textarea{
+    padding: 10px;
+    width: 85%;
+}
+
+.button{
+    background-color:  goldenrod;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color: white;
+    color: goldenrod;
+}
