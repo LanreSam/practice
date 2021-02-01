@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center pt-5">MARGINS</h1>
+        <div class="bg-primary m-1"> .m-1(margin: 4px)</div>
+        <div class="bg-primary m-2"> .m-1(margin: 8px)</div>
+        <div class="bg-primary m-3"> .m-1(margin: 16px)</div>
+        <div class="bg-primary m-4"> .m-1(margin: 24px)</div>
+        <div class="bg-primary m-5"> .m-1(margin: 48px)</div>
+
+        <h1 class="text-center">new margin</h1>
+        <div class="bg-primary mt-1 mr-5">top</div>
+        <div class="bg-primary mt-2 ml-5">top</div>
+
+        <h1 class="text-center">m.auto</h1>
+        <div class="bg-primary m-auto" style="width: 40%;">margin-auto</div>
+
+        <h1 class="text-center">screen sizes</h1>
+        <div class="bg-primary ml-5 ml-sm-0 ml-md-5 ml-lg-0 ml-xl-3">Small screen | Medium screen | Large Screen | Extra large Screen</div>
+
+        <h1 class="text-center">Paddings</h1>
+        <div class="bg-primary p-1">P-1</div>
+
+        <h1 class="display-1">Display heading 1</h1>
+        <h1 class="display-2">Display heading 2</h1>
+        <h1 class="display-3">Display heading 3</h1>
+        <h1 class="display-4">Display heading 4</h1>
+
+        <h1 class="text-center pt-5">Fancy paragraph</h1>
+        <p class="lead">The farmer went to the farmers market today</p>
+
+        <h1 class="text-center pt-5 text-uppercase">Text colors</h1>
+        <p class="text-primary">This is a primary color</p>
+        <p class="text-secondary">This is a secondary color</p>
+        <p class="text-success">This is a success color</p>
+        <p class="text-info">This is a info color</p>
+        <p class="text-warning">This is a warning color</p>
+        <p class="text-danger">This is a danger color</p>
+        <p class="text-light">This is a light color</p>
+        <p class="text-white">This is a white color</p>
+        <p class="text-muted">This is a muted color</p>
+        <p class="text-black-50">This is a black-50 color</p>
+        <p class="text-white-50">This is a white-50 color</p>
+
+        <h1 class="text-center pt-5">Background colors</h1>
+        <p class="bg-primary">This is a primary color</p>
+        <p class="bg-secondary">This is a secondary color</p>
+        <p class="bg-success">This is a success color</p>
+        <p class="bg-info">This is a info color</p>
+        <p class="bg-warning">This is a warning color</p>
+        <p class="bg-danger">This is a danger color</p>
+        <p class="bg-light">This is a light color</p>
+        <p class="bg-white">This is a white color</p>
+        <p class="bg-muted">This is a muted color</p>
+
+        <h1 class="text-center pt-5">Display Properties</h1>
+        <span class="d-block bg-primary">display block</span>
+        <span class="d-inline-block bg-success">display inline-block</span>
+        <span class="d-none bg-warning d-sm-block d-xl-none">display none</span>
+        <span class="d-flex bg-white">display flex</span>
+
+        <h1 class="text-center pt-5">Flex Direction</h1>
+        <div class="d-flex">
+            <div class="bg-danger p-2">flex row</div>
+            <div class="bg-warning p-2">flex row</div>
+            <div class="bg-success p-2">flex row</div>
+        </div>
+
+        <hr>
+
+        <div class="d-flex flex-column">
+            <div class="bg-danger p-2">flex row</div>
+            <div class="bg-warning p-2">flex row</div>
+            <div class="bg-success p-2">flex row</div>
+        </div>
+
+        <h1 class="text-center pt-5 pb-3">Flex Justify</h1>
+        <div class="d-flex justify-content-start border">
+            <div class="bg-danger p-2 pb-3">Justify Content start</div>
+        </div>
+        <div class="d-flex justify-content-center border">
+            <div class="bg-danger p-2 pb-3">Justify Content center</div>
+        </div>
+        <div class="d-flex justify-content-end border">
+            <div class="bg-danger p-2 pb-3">Justify Content end</div>
+        </div>
+        <div class="d-flex justify-content-between border">
+            <div class="bg-danger p-2 pb-3">Justify Content btw</div>
+            <div class="bg-danger p-2 pb-3">Justify Content btw</div>
+        </div>
+
+        <div class="d-flex justify-content-around border">
+            <div class="bg-danger p-2 pb-3">Justify Content around</div>
+            <div class="bg-danger p-2 pb-3">Justify Content around</div>
+        </div>
+
+        <h1 class="text-center pt-5">Flex align items</h1>
+        <div class="d-flex align-items-start border" style="height: 50px;">
+            <div class="bg-warning"> Align-items-start</div>
+        </div>
+        <div class="d-flex align-items-center border justify-content-center" style="height: 50px;">
+            <div class="bg-warning"> Align-items-center</div>
+        </div>
+        <div class="d-flex align-items-end border" style="height: 50px;">
+            <div class="bg-warning"> Align-items-end</div>
+        </div>
+
+        <h1 class="text-center pt-5 pb-3">Buttons</h1>
+        <button type="button" class="btn bg-success">Click me</button>
+        <button type="button" class="btn bg-danger btn-sm">Click me</button>
+        <button type="button" class="btn bg-danger btn-lg">Click me</button>
+
+        <h1 class="text-center pt-5 pb-3">Border radius</h1>
+        <div class="p-5 mb-3 bg-danger rounded-top text-white display-4">Rounded Top</div>
+        <div class="p-5 mb-3 bg-danger rounded-bottom text-white display-4">Rounded bottom</div>
+        <div class="p-5 mb-3 bg-danger rounded-left text-white display-4">Rounded left</div>
+        <div class="p-5 mb-3 bg-danger rounded-right text-white display-4">Rounded right</div>
+        <div class="p-5 mb-3 bg-danger rounded text-white display-4">Rounded</div>
+        <div class="p-5 mb-3 bg-danger rounded-circle text-white" style="height: 200px; width: 200px;">Rounded circle</div>
+
+        <h1 class="text-center pt-5 pb-3">Shadow</h1>
+        <div class="p-3 mb-3 shadow-sm bg-info">Shadow-sm</div>
+        <div class="p-3 mb-3 shadow bg-white">Shadow</div>
+        <div class="p-3 mb-3 shadow-lg bg-secondary">Shadow-lg</div>
+
+        <h1 class="text-center pt-5 pb-3">Cards</h1>
+        <div class="card mb-4">
+            <img class="card-img-top" src="img/semi-closed.jpg" alt="Laptop" height="500px" width="500px">
+            <div class="card-body">
+                <h5 class="card-title">Heading</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa officiis aliquid et at ipsa! 
+                    Quis temporibus debitis corrupti veniam facilis facere dolores, dicta ratione eveniet illum veritatis, 
+                    molestiae sint eum!
+                </p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Some footer text</small>
+            </div>
+        </div>
+
+        <div class="card-group">
+            <div class="card mr-1">
+                <img class="card-img-top" src="img/semi-closed.jpg" alt="Laptop" height="500px" width="500px">
+                <div class="card-body">
+                    <h5 class="card-title">Heading</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa officiis aliquid et at ipsa! 
+                        Quis temporibus debitis corrupti veniam facilis facere dolores, dicta ratione eveniet illum veritatis, 
+                        molestiae sint eum!
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Some footer text</small>
+                </div>
+            </div>
+            <div class="card mr-1">
+                <img class="card-img-top" src="img/semi-closed.jpg" alt="Laptop" height="500px" width="500px">
+                <div class="card-body">
+                    <h5 class="card-title">Heading</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa officiis aliquid et at ipsa! 
+                        Quis temporibus debitis corrupti veniam facilis facere dolores, dicta ratione eveniet illum veritatis, 
+                        molestiae sint eum!
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Some footer text</small>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="img/semi-closed.jpg" alt="Laptop" height="500px" width="500px">
+                <div class="card-body">
+                    <h5 class="card-title">Heading</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa officiis aliquid et at ipsa! 
+                        Quis temporibus debitis corrupti veniam facilis facere dolores, dicta ratione eveniet illum veritatis, 
+                        molestiae sint eum!
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Some footer text</small>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="text-center pt-5 pb-3">Carousel</h1>
+        <div id="CarouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#CarouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#CarouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#CarouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100 img-fluid" src="img/action-blur-bulb-dark-355904.jpg" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 img-fluid" src="img/art-art-exhibition-art-gallery-1674049.jpg" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 img-fluid" src="img/alarm-alarm-clock-close-up-36351.jpg" alt="">
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#CarouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+
+            <a class="carousel-control-next" href="#CarouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+
+        <h1 class="text-center pt-5 pb-3">Collapse Content</h1>
+        <a href="#collapseExample" class="btn btn-info" data-toggle="collapse">Collapse with link</a>
+
+        <button type="button" class="btn bg-success" data-toggle="collapse" data-target="#collapseExample">Button with data-target</button>
+
+        <div class="collapse" id="collapseExample">
+            <div class="card card-btn ">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, enim.
+            </div>
+        </div>
+
+        <h1 class="text-center pt-5 pb-3">Dropdown Content</h1>
+        <div class="dropdown">
+            <a href="#" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" id="menuItems" role="button">Dropdown</a>
+
+            <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Item 1</a>
+                <a href="#" class="dropdown-item">Item 2</a>
+                <a href="#" class="dropdown-item">Item 3</a>
+            </div>
+        </div>
+
+        <h1 class="text-center pt-5 pb-3">Form</h1>
+        <form action="">
+            <div class="form-group">
+                <label for="email">Email: </label>
+                <input type="email" class="form-control" id="email" placeholder="enter email..">
+            </div>
+            <div class="form-group">
+                <label for="password">Password: </label>
+                <input type="password" class="form-control" id="password" placeholder="enter password..">
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="check">
+                <label for="check">Check me </label>
+            </div>
+
+            <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+
+        <h1 class="text-center pt-5 pb-3">Jumbotron</h1>
+        <div class="jumbotron">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Assumenda voluptatum non reiciendis quasi ab consequatur, iure maiores quis ipsum nesciunt.
+            </p>
+
+            <hr>
+            <a href="#" class="btn btn-info">Learn more</a>
+        </div>
+
+        <h1 class="text-center pt-5 pb-3">Nav</h1>
+        <ul class="nav">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+            </li>
+        </ul>
+
+        <h1 class="text-center pt-5 pb-3">NavBar</h1>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <a href="#" class="navbar-brand">Navbar</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="menuItems" role="button">Dropdown</a>
+                
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Item 1</a>
+                            <a href="#" class="dropdown-item">Item 2</a>
+                            <a href="#" class="dropdown-item">Item 3</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <h1 class="text-center pt-5 pb-3">Grid System</h1>
+        <div class="row mb-2">
+            <div class="col-12 bg-danger p-2">
+                col-12
+            </div>
+        </div>
+
+        <div class="row mb-2">
+            <div class="col-6 bg-success p-2">
+                col-6
+            </div>
+
+            <div class="col-6 bg-warning p-2">
+                col-6
+            </div>
+        </div>
+
+        <div class="row mb-2">
+            <div class="col-4 bg-success p-2">
+                col-4
+            </div>
+
+            <div class="col-4 bg-warning p-2">
+                col-4
+            </div>
+            <div class="col-4 bg-primary p-2">
+                col-4
+            </div>
+        </div>
+
+        <div class="row mb-2">
+            <div class="col-3 bg-success p-2">
+                col-3
+            </div>
+
+            <div class="col-3 bg-warning p-2">
+                col-3
+            </div>
+            <div class="col-3 bg-primary p-2">
+                col-3
+            </div>
+            <div class="col-3 bg-white p-2">
+                col-3
+            </div>
+        </div>
+
+        <div class="row mb-2">
+            <div class="col-2 bg-success p-2">
+                col-2
+            </div>
+
+            <div class="col-2 bg-warning p-2">
+                col-2
+            </div>
+            <div class="col-2 bg-primary p-2">
+                col-2
+            </div>
+            <div class="col-2 bg-white p-2">
+                col-2
+            </div>
+            <div class="col-2 bg-warning p-2">
+                col-2
+            </div>
+            <div class="col-2 bg-primary p-2">
+                col-2
+            </div>
+            
+        </div>
+
+        <div class="row mb-2">
+            <div class="col-1 bg-success p-2">
+                col-1
+            </div>
+
+            <div class="col-1 bg-warning p-2">
+                col-1
+            </div>
+            <div class="col-1 bg-primary p-2">
+                col-1
+            </div>
+            <div class="col-1 bg-white p-2">
+                col-1
+            </div>
+            <div class="col-1 bg-warning p-2">
+                col-1
+            </div>
+            <div class="col-1 bg-primary p-2">
+                col-1
+            </div>
+            <div class="col-1 bg-success p-2">
+                col-1
+            </div>
+
+            <div class="col-1 bg-warning p-2">
+                col-1
+            </div>
+            <div class="col-1 bg-primary p-2">
+                col-1
+            </div>
+            <div class="col-1 bg-white p-2">
+                col-1
+            </div>
+            <div class="col-1 bg-warning p-2">
+                col-1
+            </div>
+            <div class="col-1 bg-primary p-2">
+                col-1
+            </div>
+            
+        </div>
+        
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html> 
